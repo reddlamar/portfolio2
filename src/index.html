@@ -4,8 +4,8 @@
   Simplefolio is a clean and responsive portfolio template for Developers!
   Created by Jacobo Martinez.
   -
-  Github Repo: https://github.com/cobiwave/simplefolio/
-  Readme: https://github.com/cobiwave/simplefolio/README.md
+  Github Repo: https://github.com/cobidev/simplefolio/
+  Readme: https://github.com/cobidev/simplefolio/README.md
   -
   For business & inquires, contact me -> jacobojavier98@gmail.com
 -->
@@ -15,20 +15,19 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
     <!-- Todo: put here your site title -->
-    <title>[Your name here] | Developer</title>
+    <title>Lamar Redd | Developer</title>
     <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
-    <meta name="keywords" content="[username], [name], skill" />
+    <meta name="keywords" content="reddlamar, Lamar Redd, javascript, react" />
     <!-- Todo: improve your SEO by adding a small description of you -->
-    <meta name="description" content="[Your name here] | Developer" />
+    <meta name="description" content="Lamar Redd | Developer" />
 
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <link rel="stylesheet" href="styles.scss" />
+    <link rel="stylesheet" href="../src/styles.scss" />
     <script
       defer
       src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
@@ -46,9 +45,9 @@
     <section id="hero" class="jumbotron">
       <div class="container">
         <h1 class="hero-title load-hidden">
-          Hi, my name is <span class="text-color-main">Your Name</span>
+          Hi, my name is <span class="text-color-main">Lamar Redd</span>
           <br />
-          I'm the Unknown Developer.
+          I have solutions to your software problems.
         </h1>
         <p class="hero-cta load-hidden">
           <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
@@ -71,7 +70,7 @@
                 class="img-fluid rounded shadow-lg"
                 height="auto"
                 width="300px"
-                src="assets/profile.jpg"
+                src="../src/assets/lamar.jpg"
                 alt="Profile Image"
               />
             </div>
@@ -79,20 +78,54 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                This is where you can describe about yourself. The more you
-                describe about yourself, the more chances you have!
+                I have 10 years of on-the-job coding experience. 
+                The last two years have been transformative where my coding skills and performance have been put to the test, proven, and honed. 
+                Advanced front-end developer with intermediate back-end experience, ready for the next web-based challenge.
               </p>
-              <p class="about-wrapper__info-text">
-                Extra Information about you! like hobbies and your goals.
-              </p>
-              <span class="d-flex mt-3">
+              <div class="about-wrapper__info-text fs-3">
+                <p><span class="fw-bold">Education:</span> Bachelor of Science degree in Computer Science from California State University Dominguez Hills.</p> 
+                <p><span class="fw-bold">Location:</span> Based in San Diego, California, with a strong connection to the Sacramento area</p>
+                <p>
+                  <span class="fw-bold">Interests and Hobbies:</span>
+                  <ul class="fs-4">
+                    <li>Passionate about continuous learning and improvement in software engineering, I dedicate my free time to reading books that enhance my skills, with Robert C. Martin being one of my favorite authors.</li>
+                    <li>As an avid sports enthusiast, I enjoy watching various sports, with basketball being my favorite. I also find enjoyment in participating in fantasy sports leagues for recreational purposes.</li>
+                  </ul>
+                  By leveraging my extensive experience, education, and passion for software development, I am dedicated to delivering professional, high-quality solutions to meet the demands of the ever-evolving software development landscape.
+                </p>                
+              </div>
+              <span class="d-flex mt-3 column-gap-3 lh-1">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume d-flex align-items-center"
+                  href="../src/assets/resume.pdf"
+                >
+                  <span>View Resume</span>
+                </a>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--resume"
-                  href="assets/resume.pdf"
+                  href="../src/assets/certificate-of-completion-for-complete-web-developer-in-2020-zero-to-mastery.pdf"
                 >
-                  View Resume
+                  View ZTM Complete Web Developer Certificate
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="../src/assets/certificate-of-completion-for-react-for-beginners-at-wes-bos.pdf"
+                >
+                  View Wes Bos React For Beginners Certificate
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--resume"
+                  href="../src/assets/certificate-of-completion-for-es6-for-everyone-at-wes-bos.pdf"
+                >
+                  View View Wes Bos ES6 For Everyone Certificate
                 </a>
               </span>
             </div>
@@ -112,19 +145,21 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 0</h3>
+                <h3 class="project-wrapper__text-title">Face Recognition App</h3>
                 <div>
                   <p class="mb-4">
-                    Describe the project being very specific, you can use the Twitter standard: no more than 280 characters: 
-                    complement the information: the skills learned or reinforced in its realization and how you faced it, 
-                    prove to be proactive in the search for solutions.
+                    The Face Recognition App will upload an image of a person, then detect the face of the person in the image.
+                    Just find the URL of an image of a person, then submit the URL by entering the URL into the input field and clicking the detect button.
+                    After you register, just use your email and password to login. 
+                    To develop the app, I used React, JSX, CSS, Tachyons for the frontend. 
+                    For the backend, I used Node.js, Express, and PostgreSQL.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://face-detection-app-6l1i.onrender.com/"
                 >
                   See Live
                 </a>
@@ -132,7 +167,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/reddlamar/face-detection"
                 >
                   Source Code
                 </a>
@@ -140,7 +175,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://face-detection-app-6l1i.onrender.com/" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -151,7 +186,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="../src/assets/face-detect-logo.png"
                     />
                   </div>
                 </a>
@@ -164,19 +199,18 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 1</h3>
+                <h3 class="project-wrapper__text-title">Robo Friends</h3>
                 <div>
                   <p class="mb-4">
-                    Demonstrate in this description the skills of a programmer: such as having commitment, 
-                    having perseverance and accepting alternative solutions. Remember that being a portfolio you are not selling the project, 
-                    you are selling yourself, it reflects the resources used: Frameworks, libraries, platforms, etc.
+                    Checkout the Robo Friends App to see all of your robo friends. 
+                    To develop this app I used React, JSX, and Tachyon.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://reddlamar.github.io/robofriends/"
                 >
                   See Live
                 </a>
@@ -184,7 +218,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/reddlamar/robofriends"
                 >
                   Source Code
                 </a>
@@ -192,7 +226,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://reddlamar.github.io/robofriends/" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -203,7 +237,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="../src/assets/robo-friends-logo.png"
                     />
                   </div>
                 </a>
@@ -216,18 +250,17 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Project Title 2</h3>
+                <h3 class="project-wrapper__text-title">Monsters Rolodex</h3>
                 <div>
                   <p class="mb-4">
-                    If the project was collaborative, reflect it in this description, that will demonstrate communication and/or leadership skills. 
-                    Additionally, if you made use of the mastery of a second language, it will reflect on you professionalism.
+                    A Monsters Rolodex App. To develop this app I used React, JSX, and CSS.
                   </p>
                 </div>
                 <a
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--hero"
-                  href="#!"
+                  href="https://reddlamar.github.io/monster-rolodex/"
                 >
                   See Live
                 </a>
@@ -235,7 +268,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn text-color-main"
-                  href="#!"
+                  href="https://github.com/reddlamar/monster-rolodex"
                 >
                   Source Code
                 </a>
@@ -243,7 +276,7 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="#!" target="_blank">
+                <a rel="noreferrer" href="https://reddlamar.github.io/monster-rolodex/" target="_blank">
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -254,7 +287,7 @@
                     <img
                       alt="Project Image"
                       class="img-fluid"
-                      src="assets/project.jpg"
+                      src="../src/assets/monster-rolodex-logo.png"
                     />
                   </div>
                 </a>
@@ -272,12 +305,12 @@
       <div class="container">
         <h2 class="section-title">Contact</h2>
         <div class="contact-wrapper load-hidden">
-          <p class="contact-wrapper__text">[Put your call to action here]</p>
+          <p class="contact-wrapper__text">If you need a skilled software engineer then I'm your guy. Contact me now.</p>
           <a
             rel="noreferrer"
             target="_blank"
             class="cta-btn cta-btn--resume"
-            href="mailto:example@email.com"
+            href="mailto:reddlamar1@gmail.com"
             >Call to Action</a
           >
         </div>
@@ -292,50 +325,16 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="https://twitter.com/lrsolutions1" target="_blank">
             <i class="fa fa-twitter fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="https://www.linkedin.com/in/lamar-redd-198373298/" target="_blank">
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="#!" target="_blank">
+          <a rel="noreferrer" href="https://github.com/reddlamar" target="_blank">
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
-
-        <hr />
-
-        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
-        <p class="footer__text">
-          © 2021 - Template developed by
-          <a rel="noreferrer" href="https://github.com/cobiwave" target="_blank"
-            >Jacobo Martínez</a
-          >
-        </p>
-
-        <!-- TO DO: remove this entire paragraph once you finish your portfolio -->
-        <p class="mt-3 pt-3">
-          <a
-            rel="noreferrer"
-            class="github-button"
-            href="https://github.com/cobiwave/simplefolio/fork"
-            data-icon="octicon-repo-forked"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Fork ntkme/github-buttons on GitHub"
-            >Fork</a
-          >
-          <a
-            rel="noreferrer" 
-            class="github-button"
-            href="https://github.com/cobiwave/simplefolio"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star cobiwave/simplefolio on GitHub"
-            >Star</a
-          >
-        </p>
       </div>
     </footer>
     <!-- /END Footer Section -->
